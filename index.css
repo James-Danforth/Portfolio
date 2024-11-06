@@ -487,9 +487,6 @@ body:not(.user-is-tabbing) a:focus {
 .work__image-box {
     margin-bottom: var(--gutter-normal);
 }
-.work__image-box img[src*="Mobile.png"] {
-    margin-left: 20px; 
-  }
 
 @media(min-width: 901px) {
     .work__image-box {
