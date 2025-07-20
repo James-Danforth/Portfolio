@@ -416,10 +416,16 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text p {
-    margin: 1.5rem 0 3.5rem;
-    max-width: var(--container-medium-width);
-    font-family: 'Jost', sans-serif;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-normal);
+    margin-bottom: var(--gutter-normal);
+    color: var(--white-1);
+}
+
+.header__subtitle {
+    font-size: var(--font-size-small);
+    margin-bottom: var(--gutter-normal);
+    color: var(--blue);
+    font-style: italic;
 }
 
 @media(max-width: 500px) {
@@ -597,4 +603,42 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+
+/* DevOps Section Styles */
+.devops {
+    background: linear-gradient(135deg, rgba(50, 173, 255, 0.05) 0%, rgba(0, 0, 0, 0.1) 100%);
+}
+
+.devops .work__box {
+    border: 1px solid rgba(50, 173, 255, 0.2);
+    border-radius: 8px;
+    padding: 2rem;
+    background: rgba(50, 173, 255, 0.02);
+}
+
+.devops .work__text h3 {
+    color: var(--blue);
+}
+
+.devops .work__list li {
+    background: rgba(50, 173, 255, 0.1);
+    border: 1px solid rgba(50, 173, 255, 0.3);
+}
+
+.devops .work__list li:hover {
+    background: rgba(50, 173, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Enhanced iframe styling for DevOps portfolio */
+.devops iframe {
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(50, 173, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.devops iframe:hover {
+    box-shadow: 0 12px 40px rgba(50, 173, 255, 0.2);
+    transform: translateY(-4px);
 }

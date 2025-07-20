@@ -7,11 +7,11 @@
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
   <title>
-    James Danforth | A Software Engineer based in Boston, Massachusetts.
+    James Danforth | Software Engineer & DevOps Enthusiast
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="description" content="James Danforth - Software Engineer specializing in full-stack development, DevOps, and AI technologies. Based in Boston, Massachusetts.">
+  <meta name="keywords" content="James Danforth, Software Engineer, DevOps, Full Stack Developer, AI, Boston, Lehigh University" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -23,7 +23,8 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#devops" class="nav__link">DevOps</a></li>
           <li class="nav__item"><a href="#ai-chatbot" class="nav__link">AI ChatBot</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
@@ -39,7 +40,8 @@
         <h1 class="heading-primary">
           <span>James Danforth</span>
         </h1>
-        <p>A Software Engineer based in Boston, Massachusetts.</p>
+        <p>Software Engineer & DevOps Enthusiast based in Boston, Massachusetts.</p>
+        <p class="header__subtitle">Passionate about cloud infrastructure, automation, and building scalable solutions.</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -51,7 +53,7 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Featured Projects</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
@@ -60,16 +62,20 @@
             <div class="work__text">
               <h3>Snake Game</h3>
               <p>
-                A clasic snake game using java. The game is fully functional with real-time score tracking and controls.
+                A classic snake game built with Java using Swing framework. Features real-time score tracking, 
+                smooth controls, and a modern UI design. Demonstrates object-oriented programming principles 
+                and game development concepts.
               </p>
               <ul class="work__list">
                 <li>Java</li>
                 <li>JFrame</li>
+                <li>Swing</li>
+                <li>Object-Oriented Design</li>
               </ul>
 
               <div class="work__links">
                 <a href="https://github.com/James-Danforth/SnakeGame" target="_blank" class="link__text">
-                  See Source Code <span>&rarr;</span>
+                  View Source Code <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/James-Danforth/SnakeGame" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
@@ -77,29 +83,31 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/snake.PNG" class="work__image" alt="Project 1" />
+              <img src="./images/snake.PNG" class="work__image" alt="Snake Game Project" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>The Buzz</h3>
+              <h3>The Buzz - Social Media Platform</h3>
               <p>
-                A social media app I developed with a team. Although currently it doesn't run, it was once fully functional.
+                A comprehensive social media application developed in a team environment. Features include user 
+                authentication, real-time messaging, post sharing, and mobile-responsive design. Built with 
+                modern web technologies and follows best practices for scalable applications.
               </p>
               <ul class="work__list">
                 <li>Java</li>
                 <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>HTML/CSS</li>
                 <li>Flutter</li>
                 <li>Dart</li>
                 <li>SQL</li>
+                <li>Team Development</li>
               </ul>
 
               <div class="work__links">
                 <a href="https://github.com/James-Danforth/SocialMedia" target="_blank" class="link__text">
-                  See Source Code <span>&rarr;</span>
+                  View Source Code <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/James-Danforth/SocialMedia" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
@@ -107,8 +115,49 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/Mobile.png" class="work__image" alt="Project 1" />
+              <img src="./images/Mobile.png" class="work__image" alt="Social Media App" />
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** DevOps Portfolio ***** -->
+
+    <section class="devops" id="devops">
+      <div class="row">
+        <h2>DevOps Portfolio</h2>
+        <div class="work__box">
+          <div class="work__text">
+            <h3>DevOps Infrastructure Project</h3>
+            <p>
+              A comprehensive DevOps portfolio showcasing infrastructure as code, CI/CD pipelines, 
+              containerization, and cloud deployment strategies. This project demonstrates my expertise 
+              in modern DevOps practices including Docker, Kubernetes, AWS, and automation tools.
+            </p>
+            <ul class="work__list">
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>AWS</li>
+              <li>CI/CD</li>
+              <li>Terraform</li>
+              <li>Jenkins</li>
+              <li>GitHub Actions</li>
+              <li>Infrastructure as Code</li>
+            </ul>
+
+            <div class="work__links">
+              <a href="https://james-danforth.github.io/devops-portfolio-project/" target="_blank" class="link__text">
+                Visit DevOps Portfolio <span>&rarr;</span>
+              </a>
+              <a href="https://github.com/James-Danforth/devops-portfolio-project" title="View Source Code" target="_blank">
+                <img src="./images/github.svg" class="work__code" alt="GitHub">
+              </a>
+            </div>
+          </div>
+
+          <div class="work__image-box">
+            <iframe src="https://james-danforth.github.io/devops-portfolio-project/" width="100%" height="600px" frameborder="0"></iframe>
           </div>
         </div>
       </div>
@@ -121,19 +170,23 @@
         <h2>AI ChatBot</h2>
         <div class="work__box">
           <div class="work__text">
+            <h3>Intelligent Conversational AI</h3>
             <p>
-              An AI ChatBot built using Hugging Face's platform. This ChatBot can carry out basic conversations and 
-              respond to various types of queries. The project is live and open-source, with the code hosted on GitHub.
+              An advanced AI ChatBot built using Hugging Face's platform and modern NLP techniques. 
+              This ChatBot can engage in meaningful conversations, answer questions, and provide helpful 
+              responses across various topics. The project is live and continuously improving with new features.
             </p>
             <ul class="work__list">
               <li>Python</li>
               <li>Gradio</li>
               <li>Hugging Face Spaces</li>
+              <li>Natural Language Processing</li>
+              <li>Machine Learning</li>
             </ul>
     
             <div class="work__links">
               <a href="https://jamesdanforth-ai-chatbot.hf.space/" target="_blank" class="link__text">
-                Visit AI ChatBot <span>&rarr;</span>
+                Try the AI ChatBot <span>&rarr;</span>
               </a>
               <a href="https://github.com/James-Danforth/ai-chatbot" title="View Source Code" target="_blank">
                 <img src="./images/github.svg" class="work__code" alt="GitHub">
@@ -142,7 +195,7 @@
           </div>
     
           <div class="work__image-box">
-            <iframe src="https://jamesdanforth-ai-chatbot.hf.space/" width="100%" height="600px"></iframe>
+            <iframe src="https://jamesdanforth-ai-chatbot.hf.space/" width="100%" height="600px" frameborder="0"></iframe>
           </div>
         </div>
       </div>
@@ -156,16 +209,25 @@
         <div class="about__content">
           <div class="about__text">
             <p>
-              I am a current third-year student at Lehigh University studying Computer
-              Science and Business. I am passionate about education and strive to make
-              the most out of my experiences both professionally and personally. Outside
-              of a professional setting, I love music, sports, and movies.
+              I am a passionate third-year Computer Science and Business student at Lehigh University, 
+              with a strong focus on software engineering and DevOps practices. My journey in technology 
+              has led me to explore various domains including full-stack development, cloud infrastructure, 
+              automation, and artificial intelligence.
             </p>
-            <a href="https://docs.google.com/document/d/18cZ29Mb6N93lgSv-OhogIRbYkdxcOwrECq0_L3Z10GU/edit?usp=sharing" class="btn">My Resume</a>
+            <p>
+              I'm particularly interested in DevOps culture, infrastructure as code, and building scalable 
+              solutions that bridge the gap between development and operations. My experience spans from 
+              traditional software development to modern cloud-native applications and CI/CD pipelines.
+            </p>
+            <p>
+              Outside of technology, I enjoy music, sports, and movies. I believe in continuous learning 
+              and staying up-to-date with the latest industry trends and best practices.
+            </p>
+            <a href="https://docs.google.com/document/d/18cZ29Mb6N93lgSv-OhogIRbYkdxcOwrECq0_L3Z10GU/edit?usp=sharing" class="btn">View Resume</a>
           </div>
 
           <div class="about__photo-container">
-            <img class="about__photo" src="./images/FirstHeadshot.jpg" alt="" />
+            <img class="about__photo" src="./images/FirstHeadshot.jpg" alt="James Danforth" />
           </div>
         </div>
       </div>
@@ -179,9 +241,9 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Feel free to reach out if you have any questions or advice for me as 
-          I continue on my internship search. The quickest way to reach out to
-          me is via email.
+          I'm always open to discussing new opportunities, collaborations, or just having a conversation 
+          about technology and innovation. Whether you have a project in mind, want to discuss DevOps 
+          practices, or just want to connect, feel free to reach out!
         </p>
         <a href="mailto:jad626@lehigh.edu" class="btn">jad626@lehigh.edu</a>
       </div>
@@ -213,4 +275,4 @@
   <script src="./index.js"></script>
 </body>
 
-</html
+</html>
