@@ -596,6 +596,24 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(1.1);
 }
 
+.work__image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+
+.work__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+}
+
+.work__image:hover {
+    transform: scale(1.02);
+}
+
 @media(min-width: 901px) {
     .work__image-box {
         order: 2;
